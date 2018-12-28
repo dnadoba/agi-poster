@@ -21,44 +21,45 @@ Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. W
 
 Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests gepitcht werden. Außerdem werden genehmigte Quest für den Start vorbereitet, d.h. u.A. mit Quest-Party Membern bestückt.
 
-##### Academy
+#### Academy
 
 - Zuständig für eine Plattform oder einen Bereich (bspw. iOS, Backend oder Business Development)
 - Betreibt eigenständig Plattformpflege und Weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens (Groom, Evolve, Support)
 - Betreibt ein wöchentliches Planning-Meeting, um Heroes Aufgaben für den aktuellen Zyklus zuzuordnen
-- Betreibt ein wöchtenliches Mid-Term-PLanning/Retrospektive-Meeting
+- Betreibt ein wöchtenliches Mid-Term-Planning-/Review-/Retrospektive-Meeting
 
-##### Hero
+#### Hero
 
 - Gehört einer Academy an
 - Ist Experte auf dem Gebiet seiner Academy
 
-##### Quest
+#### Quest
 
 - Ein Pojekt mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
 - Ist spezifisch, planbar und messbar
 - In einem montlichen Quest-Pipeline-Meeting werden freie Kapazitäten mit Quests bestückt
 
-##### Quest-Guide
+#### Quest-Guide
 
+- Quest guides sind Heroes, die für die Dauer des Quests als Guide bestimmt wurden
 - Behält den Überblick über den Quest-Fortschritt
 - Stellt den Quest-Fortschritt im wöchentlichen Quest-Standup vor
 - Koordiniert wöchentliche Meetings innerhalb der Quest, in denen wichtige technische und organisatorische Entscheidungen getroffen werden und in denen der aktuelle Fortschritt der einzelnen Heroes mitgeteilt wird
 - Sorgt dafür, dass die Quest-Party ungestört arbeiten kann
 
-##### Quest-Party
+#### Quest-Party
 
 - Teilnehmer einer Quest
 - Teilnehmer bearbeiten das Quest eigenverantwortlich
 - Zusammengesetzt aus Mitgliedern verschiedener Akademien
 
-##### Quest Pipeline Meeting
+#### Quest Pipeline Meeting
 
 - Findet monatlich statt
 - Dient dazu neue Quests zu pitchen und ggf. in die Pipeline aufzunehmen
 - Hat eine Quest-Planning-Komponente: Es werden Quests aus der Pipeline ausgewählt, die als nächstes beginnen sollen, sobald die benötigten Kapazitäten frei werden
 
-##### Quest Standup
+#### Quest Standup
 
 - Findet wöchentlich am Montag Morgen statt
 - Quest-Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
@@ -68,32 +69,63 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Es findet eine Retrospektive bezüglich des Quest-Prozesses statt
 
 
-## Vergleich mit agilen Methoden
+## Vergleich mit agilen Modellen
 
-##### Scrum
+#### Scrum
 
-###### Komponenten
+###### Rollen
 
-| Status | Komponente |
+Es gibt starke Parallen zu den durch Scrum definierten Rollen, der Definition wird allerdings nicht strikt gefolgt:
+
+| Status | Rolle |
 |:-:|---|
-| ✅ | __Sprints__ |
-|   | Es finden 1-wöchige Sprints statt, die jedoch für Quests anders gehandhabt werden, als für Academy-Aufgaben. |
-| ✅ | __Product Backlog__ |
-|   | Sowohl die gesamte Firma, also auch Academies Pflegen Backlogs, in denen noch zu erledigende Aufgaben/Tickets/Arbeitspakete gesammelt werden. Für die Firma liegen diese in der Form von Quests vor. Für Academies liegen diese als klassische Arbeitspakte bzw. Tickets vor. |
-| ⚠️ | __Sprint Backlog__ |
-|   | Quests folgen nicht dem Wochenzyklus und haben jedoch ein Backlog, welches die groben Arbeitsschritte erfasst, die für die Erfüllung des Quest-Ziels erledigt werden müssen. Wann diese Schritte erledigt werden und welche Reihenfolge dabei besteht wird nur grob innerhalb der wöchentlichen, quest-internen Meetings besprochen. Acadmies führen ein wochentliches Planning-Meeting durch, in dem Academy-Tickets aus dem Academy-Product-Backlog zur Bearbeitung innerhalb des betreffenden Zykluses ausgewählt werden und somit in das Sprint-BAcklog aufgenommen werden. |
-| ⚠️ | __Daily Scrum Meetings__ |
+| ⚠️ | __Scrum Team__ |
+|   | Es gibt drei Arten von Scrum-Ähnlichen Teams. Zum einen gibt es Academies, die fest für einen Aufgabenbereich zuständig sind. Des Weiteren sind Quest-Parties Scrum Teams sehr ähnlich, bestehen jedoch nur für die Dauer der Quest. Der Prozess innerhalb einer Quest ähnelt jedoch dem Scrum Prozess. Zuletzt agiert auch das Team als ganzes, indem es das Product Backlog beeinflusst. Dies ist eigentlich kein Bestandteil von Scrum, wenn man jedoch den fortlaufenden Strom an Quests und die damit verbundenen monatlichen Pipeline-Meetings als eigenen Scrum-Zyklus auffasst, ist das Product Backlog vielmehr ein Sprint BAcklog dieser Zyklen. Dann wären die strategischen Ziele das eigentliche Product-BAcklog. |
+| ⚠️ | __Product Owner__ |
+|   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs diese Rolle. Da sie an Quest-Standups und Quest-Pipeline-Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Innerhalb von Quests werden sie durch die Quest-Guides vertreten. Da sie jedoch nicht alleine das Product-BAcklog beeinflussen, sind sie keine Product Owner im klassischen Sinne von Scrum. Fasst man jedoch, wie oben beschrieben, die strategischen Ziele als eigentliches Product BAcklog auf, so sind die CEOs wiederrum eigenverantwortlich. |
+| ⚠️ | __Scrum Master__ |
+|   | Lead Entwickler in Acadmies und Quest-Guides von Quest-Parties nehmen Aufgaben in Bezug auf Prozess-Coaching und Überprüfung der Prozesseinhaltung wahr. Außerdem vermitteln Sie zwischen den Teams und den Product Ownern, bspw. betreffend interner Entscheidungen und deren Einfluss auf das Product Backlog. |
+| ⚠️ | __Team Member__ |
+|   | Sowohl in Academies als auch in Quests sind Heroes die Team-Mitglieder und erfüllen dort ähnliche Aufgaben, wie sie durch Scrum definiert sind. Dies beinhaltet die Priorisierung von Backlog Items während Planning Meetings und dem Berbeiten solcher Tickets. |
+
+###### Ereignisse
+
+Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspakete zu planen. Quests halten den Wochenzyklus nicht ein und nutzen ihn lediglich für Statusberichte. Innerhalb von Quests gibt es eine lose Zusammenstellung von Tickets in einem Backlog, die während der Quest-Laufzeit abgearbeitet werden. Außerdem werden in quest-internen Weekly Meetings ausgehend davon für jeden Wochenzyklus grob Ziele für die Arbeitung dieser Arbeitspakete gesetzt. 
+
+| Status | Ereignis |
+|:-:|---|
+| ⚠️ | __Sprints__ |
+|   | Es finden 1-wöchige Sprints statt, die jedoch für Quests anders gehandhabt werden, als für Academy-Aufgaben. Academies folgen strikt dem 1-wöchigen Zyklus. Quests sind eigene Zyklen, wie Sprints für bestimmte Sub-Produkte innerhalb des Produkts. Gleichzeitig sind sie aber auch wie eine Ansammlung von Tickets (Quest-Product-Backlog), die über eine bestimmte Anzahl von 1-wöchigen Sprints erledigt werden. Deswegen wird innerhalb von Quests in wöchentlichen Zyklen gearbeitet und Quests nehmen an firmenweiten, wöchentlichen Meetings Teil |
+| ⚠️ | __Sprint Planning__ |
+|   | Innerhalb der Academies finden derartige Meetings statt, um Tickets aus dem Academy Backlog für den kommenden Sprint zu priorisieren und in das Sprint Backlog zu verschieben. Innerhalb von Quests finden wöchentliche Meetings statt, die aber nicht nur eine Planning-Komponente haben. Dort werden grob Arbeitspakete aus dem Quest-Backlog prioriesiert. |
+| ⚠️ | __Sprint Review__ |
+|   | Wöchentlich findet das Quest-Standup statt, in dem Quests einen Statusberichtabliefern und Teilprodukte in vortstellen. Academies berichten ebenfalls über ihre Anstrengungen und stellen, wenn passen Teilprodukte vor. Academies haben zusätzlich ein internes, wöchentliches Meeting, in dem Ergebnisse des Sprint und nötige Änderungen am Academy-Backlog besprochen werden. Diese Meeting erfüllt zusätzlich noch weitere Zwecke, unabhängig vom Sprint Review. |
+| ⚠️ | __Daily Scrum__ |
 |   | Es finden keine Daily-Planning-Meetings statt. Jedoch sind Mitarbeiter dazu in einen spezifischen Slack Channel ihre Tages-Ziele aufzulisten und den Stand (noch nicht begonnen, in Berabeitung, erledigt, blockiert) aktuell zu halten. |
 | ⚠️ | __Retrospective__ |
 |   | Es finden keine derdizierten Retrospektiven statt. Gibt es Bedarf den Quest-Prozess zu besprechen, so gibt es dazu im Quest-Standup die Möglichkeit. Dies wird jedoch übersprungen, sollte es keine Wortmeldungen geben. Innerhalb der Acedmies finden wöchentliche Meetings statt, um die academy-internen Arbeitsprozesse zu besprechen. |
+| ⚠️ | __Product Backlog__ |
+|   | Sowohl die gesamte Firma, also auch Academies Pflegen Backlogs, in denen noch zu erledigende Aufgaben/Tickets/Arbeitspakete gesammelt werden. Für die Firma liegen diese in der Form von Quests vor. Quests haben ebenfalls ein grobes Backlog, welches die Arbeitspakete enthält, durch deren Abarbeitung das das Quest erfüllt wird. Quests sind quasi ein eigener, unabhängiger Sprint. Daher sind Quest-Backlogs am ehesten mit Sprint Backlogs zu vergleichen. |
+| ⚠️ | __Sprint Backlog__ |
+|   | Quests folgen nicht dem Wochenzyklus und haben jedoch ein Backlog, welches die groben Arbeitsschritte erfasst, die für die Erfüllung des Quest-Ziels erledigt werden müssen. Wann diese Schritte erledigt werden und welche Reihenfolge dabei besteht wird nur grob innerhalb der wöchentlichen, quest-internen Meetings besprochen. Academies führen ein wochentliches Planning-Meeting durch, in dem Academy-Tickets aus dem Academy-Product-Backlog zur Bearbeitung innerhalb des betreffenden Zykluses ausgewählt werden und somit in das Sprint-BAcklog aufgenommen werden. |
 
-- Quick planning sessions
+###### Prinzipien
 
-##### Kanban
+| Status | Prinzip |
+|:-:|---|
+| ✅ | __Scrums Teams sind selbstorganisiert__ |
+|   | Scrum Teams entscheiden selbstbestimmt darüber, wie sie die anstehenden Aufgabe angehen und welche Werkzeuge sie einsetzen. Dies ist sowohl für Academies, also auch für Quest-Parties der Fall. |
+| ✅ | __Scrums Teams sind interdisziplinär__ |
+|   | Teams verfügenen über das Know-How, um ihre Aufgaben zu erledigen und sind dabei unabhängig von außenstehenden Personen. Dies ist sowohl für Academies, also auch für Quest-Parties der Fall. |
 
+
+
+#### Kanban
+
+- Quick design sessions
 - Academies verwalten Tickets auf einem öffentlichen Kanban-Board
 
-##### Extreme Programming
+#### Extreme Programming
 
 ###### Prinzipien
 
