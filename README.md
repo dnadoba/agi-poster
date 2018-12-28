@@ -166,3 +166,13 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 |   | Es wird nicht testgetrieben entwickelt. Tests werden geschrieben, nachdem der Produktiv Code läuft. |
 | ✅ | __Inkrementeller Entwurf (incremental design)__ |
 |   | Alle Code Bases werden kontinuierlich erweitert, refactored und die Architekturen werden langsam angepasst, um den immer neuen Anforderungen im schnelllebigen Markt gerecht zu werden. Dies schließt verwendeteProjektmanagementansätze, Programmier-Sprachen, Werkzeuge, Frameworks und Archtekturen ein. Die Mitarbeiter bilden sich stetig weiter und beobachten Best Practices in vergleichbaren Unternhemen. Acadmies halten Quick Design Session ab, um zu besprechen, wie bestimmte Elemente implementiert werden sollen. Code und Test Code erfüllen das Speaking Code Principle (ist selbstdokumendtierend). Außerdem folgt sämtlicher Code Design Styleguides, die durch Linter überprüft werden.  |
+
+---
+
+__Legende__:
+
+✅ Stimmt überein, ist erfüllt
+
+⚠️ Stimmt teilweise überein, ist teilweise erfüllt
+
+❌ Stimmt nicht überein, ist nicht erfüllt
