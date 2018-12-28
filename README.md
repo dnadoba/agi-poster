@@ -122,7 +122,6 @@ Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspa
 
 #### Kanban
 
-- Quick design sessions
 - Academies verwalten Tickets auf einem öffentlichen Kanban-Board
 
 #### Extreme Programming
@@ -131,7 +130,7 @@ Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspa
 
 Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Programming überein:
 
-- __Simplicity:__ Academies pflegen und erweitern ihre Code-Base mit Hinsicht darauf, keinen unnötigen Code zu beinhalten. Statt ROI direkt zu maximieren, ist das oberste Ziel für Quests Retention zu verbessern. Die Anzahl der aktiven Nutzer ist ausschlaggebend für den Erfolg des Unternhemens.
+- __Simplicity:__ Academies pflegen und erweitern ihre Code-Base mit Hinsicht darauf, keinen unnötigen Code zu beinhalten. Statt ROI direkt zu maximieren, ist das oberste Ziel für Quests Retention zu verbessern. Die Anzahl der aktiven Nutzer ist ausschlaggebend für den Erfolg des Unternhemens. Code folgt dem Don't Repeat Yourself Prinzip.
 - __Communication:__ Tägliche zusammenarbeit und Kommunikation wird durch gemeinsame Präsenzzeiten, zusammengelegte Arbeitsplätze und spezifische Slack-Channel für Academies, Quests, etc. gewährleistet. Kommunikation findet immer öffentlich statt und bietet somit Personen in die Kommunikation einzusteigen, sodass Wissen erweitert werden kann.
 - __Feedback:__ Academies erstellen wöchentlich Beta Versionen. Außerdem gibt es eine Development-Umgebung, die das Produktiv-Backend spiegelt und dazu dient frühzeitig lauffähige Zwischenstände zu testen. Zusätzlich werden CI-Werkzeuge eingesetzt, um Tests und Linter möglichts früh (sobald ein PR geöffnet wird) und automatisiert laufen zu lassen. In der Zukunft sind automatisierte Beta-Builds geplant.
 - __Respect:__ Academies arbeiten eigenverantwortlich und treffen Entscheidung bezüglich Architektur, eingesetzter Tools, Sprachen und Frameworks selbst. Geteilte Code-Ownership wird praktiziert, sodass jeder Mitarbeiter jederzeit jeden Code ändern kann. Qualität wird durch Peer-Reviews gewährleistet, bzw. bei Academy-Übergreifender Arbeit durch einen Fachkundigen Mitarbeiter.
@@ -139,7 +138,7 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 
 ###### Praktiken
 
-| Status | Prinzip |
+| Status | Praktik |
 |:-:|---|
 | ✅ | __Räumlich zusammen sitzen (sit together)__ |
 |   | Alle Academies sitzen in Tischgruppen nahe beieinander. Die Tischgruppen sind so angeordnet, dass Academy-Mitglieder zusammen sitzen. |
@@ -166,4 +165,4 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 | ❌ | __Testgetriebene Entwicklung (test-first programming)__ |
 |   | Es wird nicht testgetrieben entwickelt. Tests werden geschrieben, nachdem der Produktiv Code läuft. |
 | ✅ | __Inkrementeller Entwurf (incremental design)__ |
-|   | Alle Code Bases werden kontinuierlich erweitert, refactored und die Architekturen werden langsam angepasst, um den immer neuen Anforderungen im schnelllebigen Markt gerecht zu werden. Dies schließt verwendeteProjektmanagementansätze, Programmier-Sprachen, Werkzeuge, Frameworks und Archtekturen ein. Die Mitarbeiter bilden sich stetig weiter und beobachten Best Practices in vergleichbaren Unternhemen. |
+|   | Alle Code Bases werden kontinuierlich erweitert, refactored und die Architekturen werden langsam angepasst, um den immer neuen Anforderungen im schnelllebigen Markt gerecht zu werden. Dies schließt verwendeteProjektmanagementansätze, Programmier-Sprachen, Werkzeuge, Frameworks und Archtekturen ein. Die Mitarbeiter bilden sich stetig weiter und beobachten Best Practices in vergleichbaren Unternhemen. Acadmies halten Quick Design Session ab, um zu besprechen, wie bestimmte Elemente implementiert werden sollen. Code und Test Code erfüllen das Speaking Code Principle (ist selbstdokumendtierend). Außerdem folgt sämtlicher Code Design Styleguides, die durch Linter überprüft werden.  |
