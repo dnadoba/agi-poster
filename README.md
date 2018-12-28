@@ -26,7 +26,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Zuständig für eine Plattform oder einen Bereich (bspw. iOS, Backend oder Business Development)
 - Betreibt eigenständig Plattformpflege und Weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens (Groom, Evolve, Support)
 - Betreibt ein wöchentliches Planning-Meeting, um Heroes Aufgaben für den aktuellen Zyklus zuzuordnen
-- Betreibt ein wöchtenliches Retrospektive-Meeting
+- Betreibt ein wöchtenliches Mid-Term-PLanning/Retrospektive-Meeting
 
 ##### Hero
 
@@ -72,12 +72,22 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 ##### Scrum
 
-- Academies betreiben wöchentliche Planning-Meetings für Academy-Tickets
-- Academies betreiben wöchentliche Reviews/Retrospektiven
+###### Komponenten
 
+| Status | Komponente |
+|:-:|---|
+| ✅ | __Sprints__ |
+|   | Es finden 1-wöchige Sprints statt, die jedoch für Quests anders gehandhabt werden, als für Academy-Aufgaben. |
+| ✅ | __Product Backlog__ |
+|   | Sowohl die gesamte Firma, also auch Academies Pflegen Backlogs, in denen noch zu erledigende Aufgaben/Tickets/Arbeitspakete gesammelt werden. Für die Firma liegen diese in der Form von Quests vor. Für Academies liegen diese als klassische Arbeitspakte bzw. Tickets vor. |
+| ⚠️ | __Sprint Backlog__ |
+|   | Quests folgen nicht dem Wochenzyklus und haben jedoch ein Backlog, welches die groben Arbeitsschritte erfasst, die für die Erfüllung des Quest-Ziels erledigt werden müssen. Wann diese Schritte erledigt werden und welche Reihenfolge dabei besteht wird nur grob innerhalb der wöchentlichen, quest-internen Meetings besprochen. Acadmies führen ein wochentliches Planning-Meeting durch, in dem Academy-Tickets aus dem Academy-Product-Backlog zur Bearbeitung innerhalb des betreffenden Zykluses ausgewählt werden und somit in das Sprint-BAcklog aufgenommen werden. |
+| ⚠️ | __Daily Scrum Meetings__ |
+|   | Es finden keine Daily-Planning-Meetings statt. Jedoch sind Mitarbeiter dazu in einen spezifischen Slack Channel ihre Tages-Ziele aufzulisten und den Stand (noch nicht begonnen, in Berabeitung, erledigt, blockiert) aktuell zu halten. |
+| ⚠️ | __Retrospective__ |
+|   | Es finden keine derdizierten Retrospektiven statt. Gibt es Bedarf den Quest-Prozess zu besprechen, so gibt es dazu im Quest-Standup die Möglichkeit. Dies wird jedoch übersprungen, sollte es keine Wortmeldungen geben. Innerhalb der Acedmies finden wöchentliche Meetings statt, um die academy-internen Arbeitsprozesse zu besprechen. |
 
 - Quick planning sessions
-- Keine Daily Meetings
 
 ##### Kanban
 
