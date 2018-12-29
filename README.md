@@ -15,7 +15,7 @@ Das vorgestellte agile Software-Entwicklungs-Framework wurde durch das agile Mod
 - [Spotify Engineering Culture (Part 2)](https://vimeo.com/94950270)
 
 
-## Aufbau und Struktur
+## Komponenten und Aufbau
 
 Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. Wöchentlich (Montag morgens) findet ein sogenanntes Quest Standup Meeting statt, bei dem die Quest-Leader den Fortschritt, die aktuellen Probleme und mögliche Verzögerungen ihrer Quests vortragen. Außerdem tragen die Acedmies den Fortschritt ihrer Bemühungen bezüglich _Groom, Evolve, Support_ vor. Im Quest Standup findet zusätzlich eine Abwandlung einer Retrospektive statt, indem Probleme, die auf Questebene stattgefunden haben, beleuchtet werden.
 
@@ -23,10 +23,14 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 #### Academy
 
-- Zuständig für eine Plattform oder einen Bereich (bspw. iOS, Backend oder Business Development)
-- Betreibt eigenständig Plattformpflege und Weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens (Groom, Evolve, Support)
+- Gilt als eigenständiger Bereich und ist selbst-verwaltet
+- Ist zuständig für eine Plattform oder eine Abteilung (bspw. iOS, Backend oder Business Development)
+- Betreibt Plattformpflege und -weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens (Groom, Evolve, Support), das sog. Academy-Product
+- Dabei müssen große Arbeitspakete als Quest deklariert werden und gelten nicht also Academy-Tasks
+- Verwaltet ein eigenes Product Backlog (Academy-Product-Backlog) (enthält nur Tasks und Arbeitspakete mit Bezug auf Plattformpflege und -weiterentwicklung)
 - Betreibt ein wöchentliches Planning-Meeting, um Heroes Aufgaben für den aktuellen Zyklus zuzuordnen
-- Betreibt ein wöchtenliches Mid-Term-Planning-/Review-/Retrospektive-Meeting
+- Betreibt ein wöchtenliches Mid-Term-Planning-/Review-/Retrospektive-Meetingt
+- Tasks werden auf einem internen Kanban Board festgehalten
 
 #### Hero
 
@@ -38,6 +42,12 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Ein Pojekt mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
 - Ist spezifisch, planbar und messbar
 - In einem montlichen Quest-Pipeline-Meeting werden freie Kapazitäten mit Quests bestückt
+
+#### Doomsday Quest
+
+- Spezielle Quests, die unverzüglich begonnen und durchgeführt werden müssen, da sie sonst das Fortbestehen des Produkts gefährden
+- Können jederzeit initiiert werden
+- Blockieren alle anderen Quests von denen Heroes abgezogen werden
 
 #### Quest-Guide
 
@@ -65,7 +75,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Quest-Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
 - Academies berichten kurz über die Anstrengungen hinsichtlich Groom, Evolve und Support
 - Bugtickets werden an die Acadmies verteilt (Bugtickets werden zentral gesammelt und erst beim nächsten Quest Standup aufgegriffen)
-- Vorkommnisse der vergangen Woche werden reflektiert
+- Vorkommnisse der vergangenen Woche werden reflektiert
 - Es findet eine Retrospektive bezüglich des Quest-Prozesses statt
 
 
@@ -80,7 +90,7 @@ Es gibt starke Parallen zu den durch Scrum definierten Rollen, der Definition wi
 | Status | Rolle |
 |:-:|---|
 | ⚠️ | __Scrum Team__ |
-|   | Es gibt drei Arten von Scrum-Ähnlichen Teams. Zum einen gibt es Academies, die fest für einen Aufgabenbereich zuständig sind. Des Weiteren sind Quest-Parties Scrum Teams sehr ähnlich, bestehen jedoch nur für die Dauer der Quest. Der Prozess innerhalb einer Quest ähnelt jedoch dem Scrum Prozess. Zuletzt agiert auch das Team als ganzes, indem es das Product Backlog beeinflusst. Dies ist eigentlich kein Bestandteil von Scrum, wenn man jedoch den fortlaufenden Strom an Quests und die damit verbundenen monatlichen Pipeline-Meetings als eigenen Scrum-Zyklus auffasst, ist das Product Backlog vielmehr ein Sprint BAcklog dieser Zyklen. Dann wären die strategischen Ziele das eigentliche Product-BAcklog. |
+|   | Es gibt drei Arten von Scrum-Ähnlichen Teams. Zum einen gibt es Academies, die fest für einen Aufgabenbereich zuständig sind. Des Weiteren sind Quest-Parties Scrum Teams sehr ähnlich, bestehen jedoch nur für die Dauer der Quest. Der Prozess innerhalb einer Quest ähnelt jedoch dem Scrum Prozess. Zuletzt agiert auch das Team als ganzes, indem es das Product Backlog beeinflusst. Dies ist eigentlich kein Bestandteil von Scrum, wenn man jedoch den fortlaufenden Strom an Quests und die damit verbundenen monatlichen Pipeline-Meetings als eigenen Scrum-Zyklus auffasst, ist das Product Backlog vielmehr ein Sprint BAcklog dieser Zyklen. Dann wären die strategischen Ziele das eigentliche Product-Backlog. |
 | ⚠️ | __Product Owner__ |
 |   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs diese Rolle. Da sie an Quest-Standups und Quest-Pipeline-Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Innerhalb von Quests werden sie durch die Quest-Guides vertreten. Da sie jedoch nicht alleine das Product-BAcklog beeinflussen, sind sie keine Product Owner im klassischen Sinne von Scrum. Fasst man jedoch, wie oben beschrieben, die strategischen Ziele als eigentliches Product BAcklog auf, so sind die CEOs wiederrum eigenverantwortlich. |
 | ⚠️ | __Scrum Master__ |
@@ -118,11 +128,15 @@ Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspa
 | ✅ | __Scrums Teams sind interdisziplinär__ |
 |   | Teams verfügenen über das Know-How, um ihre Aufgaben zu erledigen und sind dabei unabhängig von außenstehenden Personen. Dies ist sowohl für Academies, also auch für Quest-Parties der Fall. |
 
-
-
 #### Kanban
 
-- Academies verwalten Tickets auf einem öffentlichen Kanban-Board
+###### Kanban Board auf Unternehmens-Ebene
+
+Auf Unternehmens-Ebene wird ein digitales Kanban-Board geführt. Die Einheit für Tickets sind dabei nicht Arbeitspakete oder Tasks, sondern Quests. Das "Quest-Backlog" Product-Backlog ist dabei nach Priorität geordnet. Weitere Spalten des Kanban-Boards sind "Running-Quests" (In Progress) und "Accomplished Quests" (Done). Zwei zusätzliche Spalten dienen als Vortstufe für das Product Backlog und sind relevant für das Quest-Pipeline-Meeting. Diese sind "Quests Ready To Be Pitched" und "Quests Not Ready To Be Pitched". "Quests Ready To Be Pitched" werden während des Quest-Pipeline-Meetings vorgestellt und ggf. in das Product-Backlog aufgenommen. Andernfalls müssen sie überarbeitet werden und wandern zurück in "Quests Not Ready Not To Be Pitched" oder sie werden verworfen. Ziel des Kanban-Boards ist hauptsächlich die Begrenzung des WIPs. Aufgrund von begrenzten Ressourcen können nur eine bestimmte Anzahl an Quests gleichzeitig laufen. Außerdem bauen oftmals Quests auf anderen Quests auf. Wird ein Quest beendet, wird dies im Quest Standup Meeting verkündet und ein neues Quest wird gestartet.  
+
+###### Kanban Board auf Academy-Ebene
+
+Academies gelten als abgretrennte, selbst-verwaltete Bereiche. Also solche haben sie nach Scrum ein eigenes Product-Backlog und verwalten ihre Arbeitspakete bzw. Tasks während der Sprints. Für die Visualisierung und die Messung des Fortschritts verwalten Academies ihre eigenen digitalen und öffentlichen Kanban-Boards. Dabei gibt es die Spalten "Backlog" (Academy-Product-Backlog), "To Do" (Sprint Backlog), "In Progress" und "Done". Sobald der Verantwortliche ein Ticket abgearbeitet hat, wird ein PR geöffnet und ein Peer-Review eingehlt. Solange bleibt die Karte in "In Progress" Während dem wöchentlichen Academy-Palnning-Meeting wird die "To Do"-Spalte befüllt und den Tasks werden Heroes zugeteilt. Ziel des Kanban Boards ist nicht den WIP zu begrenzen und einen optimalen Durchfluss zu erreichen. Vielmehr ist die Planung der Prozess, der eine adäquate Auslastung der Heroes sicherstellt. Dabei werden bereits die Teilnahmen an Quests berücksichtigt. Zusätzlich sind die Arbeitspakete der Academies auf Wartungs- und Weiterentwicklungsaufgaben beschränkt. Tasks mit großem Umfang müssen darüber hinaus als Quest initiiert werden, da sie die (Quest-)Planung des gesamten Unternehmens beeinflussen. Academy-Tickets sind daher in ihrem Umfang begrenzt, wodurch es in der Regel nicht zu Durchflussproblemen kommt.
 
 #### Extreme Programming
 
