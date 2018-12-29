@@ -170,19 +170,19 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 | ✅ | __Geschichten (stories)__ |
 |   | User Stories sind Grundlage für alle Quests, die Einfluss auf den Endnutzer haben. |
 | ✅ | __Wochenzyklus (weekly cycle)__ |
-|   | Innerhalb der Academies, sowie in den Quests wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup, bei dem beide Gruppen Bericht erstatten müssen, enforciert. |
+|   | Innerhalb der Academies, sowie in den Quests wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup Meeting enforciert. |
 | ❌ | __Quartalszyklus (quarterly cycle)__ |
-|   | Quartalszyklen haben keinen direkten Einfluss auf das Projektmanagement und das agile Vorgehen. Allerdings finden monatlich Quest-Pipeline Meetings statt. Dort werden zukünftige Quests vorgestellt und entschiedene Quests auf frei werdende Kapazitäten geplant. |
+|   | Quartalszyklen haben keinen direkten Einfluss auf das Projektmanagement und das agile Vorgehen. Allerdings finden monatlich Quest Pipeline Meetings statt. Dort werden zukünftige Quests vorgestellt und entschiedene Quests auf frei werdende Kapazitäten geplant. |
 | ❌ | __Freiraum (slack)__ |
-|   | Aktuell gibt es während der Arbeit an Academy-Tasks und Quest-Tasks keine möglichkeit eigene Projekt oder Ideen zu verfolgen. |
+|   | Aktuell wird nicht mit Pufferzeiten geplant, wobei bei der Planung der Länge von Quests jedoch versucht wird Probleme zu antizipieren. Geht es dann schneller voran, da Probleme nicht eintreten, so können Academy Tasks durchgeführt werden (auch aus dem Academy Product BAcklog). |
 | ⚠️ | __Zehn-Minuten-Build (ten-minute-build)__ |
-|   | Dieses Prinzip wird nicht aktiv verfolgt. In der iOS Academy lassen sich aktuell alle Tests und dafür nötigen Schritte in weniger als 10 Minuten durchführen. Diese liegt vielleicht mitunter daran, dass die Testabdeckung noch nicht das gewünschte Level erreicht hat.|
+|   | Dieses Prinzip wird nicht aktiv verfolgt. In der iOS Academy lassen sich aktuell alle Tests und dafür nötigen Schritte in weniger als 10 Minuten durchführen. Dies liegt vielleicht mitunter daran, dass die Testabdeckung noch nicht das gewünschte Level erreicht hat.|
 | ⚠️ | __Kontinuierliche Integration (continuous integration)__ |
-|   | Je nach Academy gibt werden CI Tools unterschiedloch stark verwendet. Diese Entwicklung voranzutreiebn obliegt den Academies. In der iOS Academy laufen Tests und Linter bereits automatisiert, bei PRs auf den MAster Branch. In der Zukunft sollen automatisierte Beta Builds folgen. |
+|   | Je nach Academy gibt werden CI Tools unterschiedloch stark verwendet. Diese Entwicklung voranzutreiben obliegt den Academies. In der iOS Academy laufen Tests und Linter bereits automatisiert, bei Pull Requests auf den Master Branch. In der Zukunft sollen automatisierte Beta Builds folgen. |
 | ❌ | __Testgetriebene Entwicklung (test-first programming)__ |
 |   | Es wird nicht testgetrieben entwickelt. Tests werden geschrieben, nachdem der Produktiv Code läuft. |
 | ✅ | __Inkrementeller Entwurf (incremental design)__ |
-|   | Alle Code Bases werden kontinuierlich erweitert, refactored und die Architekturen werden langsam angepasst, um den immer neuen Anforderungen im schnelllebigen Markt gerecht zu werden. Dies schließt verwendeteProjektmanagementansätze, Programmier-Sprachen, Werkzeuge, Frameworks und Archtekturen ein. Die Mitarbeiter bilden sich stetig weiter und beobachten Best Practices in vergleichbaren Unternhemen. Acadmies halten Quick Design Session ab, um zu besprechen, wie bestimmte Elemente implementiert werden sollen. Code und Test Code erfüllen das Speaking Code Principle (ist selbstdokumendtierend). Außerdem folgt sämtlicher Code Design Styleguides, die durch Linter überprüft werden.  |
+|   | Alle Code Bases werden kontinuierlich erweitert, refactored und die Architekturen werden fortwährend angepasst, um den immer neuen Anforderungen im schnelllebigen Markt gerecht zu werden. Dies schließt verwendete Projektmanagementansätze, Programmier-Sprachen, Werkzeuge, Frameworks und Archtekturen ein. Die Mitarbeiter bilden sich stetig weiter und beobachten Best Practices in vergleichbaren Unternhemen. Academies halten Quick Design Sessions ab, um zu besprechen, wie bestimmte Funktionalitäten implementiert werden sollen. Code und Test Code erfüllen das Speaking Code Principle (Code ist selbstdokumendtierend). Außerdem folgt sämtlicher Code Design Styleguides, die durch Linter überprüft werden. |
 
 ---
 
