@@ -44,7 +44,7 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Ein Pojekt mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
 - Ist spezifisch, planbar und messbar
 - In einem montlichen Quest Pipeline Meeting werden freie Kapazitäten mit Quests bestückt
-- Betreibt ein wöchentliches Meeting für die Planung und ein Review, sowie die Besprechung von Interna
+- Betreibt ein wöchentliches Meeting für die Planung und ein Review, sowie die Besprechung von Interna (technische und organisatorische Entscheidungen)
 
 #### Doomsday Quest
 
@@ -54,30 +54,30 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 #### Quest Guide
 
-- Quest guides sind Heroes, die für die Dauer des Quests als Guide bestimmt wurden
-- Behält den Überblick über den Quest-Fortschritt
-- Stellt den Quest-Fortschritt im wöchentlichen Quest-Standup vor
-- Koordiniert wöchentliche Meetings innerhalb der Quest, in denen wichtige technische und organisatorische Entscheidungen getroffen werden und in denen der aktuelle Fortschritt der einzelnen Heroes mitgeteilt wird
-- Sorgt dafür, dass die Quest-Party ungestört arbeiten kann
+- Quest Guides sind Heroes, die für die Dauer des Quests als Leiter bestimmt werden
+- Behält den Überblick über den Fortschritt des Quests
+- Stellt den Fortschritt im wöchentlichen Quest Standup Meeting vor
+- Koordiniert die wöchentliche quest-internen Meetings
+- Sorgt dafür, dass die Quest Party ungestört arbeiten kann
 
-#### Quest-Party
+#### Quest Party
 
-- Teilnehmer einer Quest
-- Teilnehmer bearbeiten das Quest eigenverantwortlich
-- Zusammengesetzt aus Mitgliedern verschiedener Akademien
+- Gruppe an Teilnehmern einer Quest
+- Zusammengesetzt aus Heros verschiedener Academies 
+- Bearbeitet das Quest eigenverantwortlich und selbstorganisiert
 
 #### Quest Pipeline Meeting
 
 - Findet monatlich statt
 - Dient dazu neue Quests zu pitchen und ggf. in die Pipeline aufzunehmen
-- Hat eine Quest-Planning-Komponente: Es werden Quests aus der Pipeline ausgewählt, die als nächstes beginnen sollen, sobald die benötigten Kapazitäten frei werden
+- Es werden Quests aus der Pipeline ausgewählt, die als nächstes beginnen sollen, sobald die benötigten Kapazitäten frei werden
 
 #### Quest Standup Meeting
 
 - Findet wöchentlich am Montag Morgen statt
 - Quest Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
 - Academies berichten kurz über die Anstrengungen hinsichtlich Groom, Evolve und Support
-- Bugtickets werden an die Acadmies verteilt (Bugtickets werden zentral gesammelt und erst beim nächsten Quest Standup aufgegriffen)
+- Bugtickets werden an die Acadmies verteilt (Bugtickets werden zentral gesammelt und erst beim nächsten Quest Standup vorgestellt)
 - Vorkommnisse der vergangenen Woche werden reflektiert
 - Es findet eine Retrospektive bezüglich des Quest-Prozesses statt
 
@@ -95,7 +95,7 @@ Es gibt starke Parallen zu den durch Scrum definierten Rollen, der Definition wi
 | ⚠️ | __Scrum Team__ |
 |   | Es gibt zwei Arten von scrum-ähnlichen Teams. Zum einen gibt es Academies, die fest für einen Aufgabenbereich zuständig sind. Des Weiteren sind Quest-Parties Scrum Teams sehr ähnlich, bestehen jedoch nur für die Dauer der Quest. Die Vorgehensweise innerhalb einer Quest ähnelt jedoch dem Scrum Prozess. Die Quest Party wird für die Dauer des Quests zu einem Scrum Team und strukturiert den Arbeitsfluss anhand der 1-wöchigen Sprints. |
 | ❌ | __Product Owner__ |
-|   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs und das gesamte Team diese Rolle. Da die CEOs an Quest-Standups und Quest Pipeline Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Sie beeinflussen jedoch nicht alleine das Product-Backlog, alle Heros nehmen am Quest Pipeline Meeting teil. Innerhalb von Quests werden diese Interessen durch die Quest Guides vertreten. Daher gibt es keine Product Owner im klassischen Sinne von Scrum. |
+|   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs und das gesamte Team diese Rolle. Da die CEOs an Quest Standups und Quest Pipeline Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Sie beeinflussen jedoch nicht alleine das Product-Backlog, alle Heros nehmen am Quest Pipeline Meeting teil. Innerhalb von Quests werden diese Interessen durch die Quest Guides vertreten. Daher gibt es keine Product Owner im klassischen Sinne von Scrum. |
 | ⚠️ | __Scrum Master__ |
 |   | Lead Entwickler in Acadmies und Quest Guides nehmen Aufgaben in Bezug auf Prozess-Coaching und Überprüfung der Prozesseinhaltung wahr. Außerdem vermitteln Sie zwischen den Teams und den Product Ownern, bspw. betreffend interner Entscheidungen und deren Einfluss auf das Product Backlog. |
 | ⚠️ | __Team Member__ |
@@ -112,11 +112,11 @@ Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspa
 | ⚠️ | __Sprint Planning__ |
 |   | Innerhalb der Academies finden derartige Meetings statt, um Tickets aus dem Academy Backlog für den kommenden Sprint zu priorisieren und in das Sprint Backlog zu verschieben. Innerhalb von Quests finden wöchentliche Meetings statt, die aber nicht nur eine Planning-Komponente haben. Dort werden grob Arbeitspakete aus dem Quest-Backlog prioriesiert. |
 | ⚠️ | __Sprint Review__ |
-|   | Wöchentlich findet das Quest-Standup statt, in dem Quests einen Statusberichtabliefern und Teilprodukte in vortstellen. Academies berichten ebenfalls über ihre Anstrengungen und stellen, wenn passen Teilprodukte vor. Academies haben zusätzlich ein internes, wöchentliches Meeting, in dem Ergebnisse des Sprint und nötige Änderungen am Academy-Backlog besprochen werden. Diese Meeting erfüllt zusätzlich noch weitere Zwecke, unabhängig vom Sprint Review. |
+|   | Wöchentlich findet das Quest Standup statt, in dem Quests einen Statusberichtabliefern und Teilprodukte in vortstellen. Academies berichten ebenfalls über ihre Anstrengungen und stellen, wenn passen Teilprodukte vor. Academies haben zusätzlich ein internes, wöchentliches Meeting, in dem Ergebnisse des Sprint und nötige Änderungen am Academy-Backlog besprochen werden. Diese Meeting erfüllt zusätzlich noch weitere Zwecke, unabhängig vom Sprint Review. |
 | ⚠️ | __Daily Scrum__ |
 |   | Es finden keine Daily-Planning Meetings statt. Jedoch sind Mitarbeiter dazu in einen spezifischen Slack Channel ihre Tages-Ziele aufzulisten und den Stand (noch nicht begonnen, in Berabeitung, erledigt, blockiert) aktuell zu halten. |
 | ⚠️ | __Retrospective__ |
-|   | Es finden keine derdizierten Retrospektiven statt. Gibt es Bedarf den Quest-Prozess zu besprechen, so gibt es dazu im Quest-Standup die Möglichkeit. Dies wird jedoch übersprungen, sollte es keine Wortmeldungen geben. Innerhalb der Acedmies finden wöchentliche Meetings statt, um die academy-internen Arbeitsprozesse zu besprechen. |
+|   | Es finden keine derdizierten Retrospektiven statt. Gibt es Bedarf den Quest-Prozess zu besprechen, so gibt es dazu im Quest Standup die Möglichkeit. Dies wird jedoch übersprungen, sollte es keine Wortmeldungen geben. Innerhalb der Acedmies finden wöchentliche Meetings statt, um die academy-internen Arbeitsprozesse zu besprechen. |
 | ⚠️ | __Product Backlog__ |
 |   | Sowohl die gesamte Firma, also auch Academies Pflegen Backlogs, in denen noch zu erledigende Aufgaben/Tickets/Arbeitspakete gesammelt werden. Für die Firma liegen diese in der Form von Quests vor. Quests haben ebenfalls ein grobes Backlog, welches die Arbeitspakete enthält, durch deren Abarbeitung das das Quest erfüllt wird. Quests sind quasi ein eigener, unabhängiger Sprint. Daher sind Quest-Backlogs am ehesten mit Sprint Backlogs zu vergleichen. |
 | ⚠️ | __Sprint Backlog__ |
@@ -170,7 +170,7 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 | ✅ | __Geschichten (stories)__ |
 |   | User Stories sind Grundlage für alle Quests, die Einfluss auf den Endnutzer haben. |
 | ✅ | __Wochenzyklus (weekly cycle)__ |
-|   | Innerhalb der Academies, sowie in den Quest Parties wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest-Standup, bei dem beide Gruppen Bericht erstatten müssen, enforciert. |
+|   | Innerhalb der Academies, sowie in den Quest Parties wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup, bei dem beide Gruppen Bericht erstatten müssen, enforciert. |
 | ❌ | __Quartalszyklus (quarterly cycle)__ |
 |   | Quartalszyklen haben keinen direkten Einfluss auf das Projektmanagement und das agile Vorgehen. Allerdings finden monatlich Quest-Pipeline Meetings statt. Dort werden zukünftige Quests vorgestellt und entschiedene Quests auf frei werdende Kapazitäten geplant. |
 | ❌ | __Freiraum (slack)__ |
