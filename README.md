@@ -2,7 +2,7 @@
 
 ---
 
-_Das agile Software-Entwicklungs-Framework von Stocard ist eine Fusion von verschiedenen agilen Methoden, wie Scrum, Kanban und Xtreme Programming. Stocard startet mit einem Modell, welches sich annähernd als Scrum-Ban beschreiben lässt. Dabei wurden Tickets auf Plattformen aufgeteilt. In einwöchigen Sprints wurden diese relativ kleinen Tasks abgerabeitet. Wenn mehrere Plattformen beteiligt waren, wurde das Ticket der Plattform mit dem höchsten Arbeitsanteil zugewiesen. Mit dem Wachstum Unternehmens stellten sich immer mehr Probleme ein, welche eine effiziente und agile Arbeitweise erschwerten. Es wichtiger eine längerfristige strategische Ausrichtung zu entwickeln, daraus mittelfristige Ziele anhand von Marktuntersuchungen und -vorhersagen zu definieren und diese in einzelne Projekte zu übersetzen. Diese Projekt konnten die Sprintzyklen nicht mehr einhalten und mussten zunehmend über viele Plattformen hinweg organisiert werden._
+_Das vorgestellte agile Software-Entwicklungs-Framework ist eine Fusion von verschiedenen agilen Methoden, wie Extreme Programming, Scrum und Kanban. Viele Startups beginnen mit einem Framework, welches sich annähernd als Scrum-Ban beschreiben lässt. Als Beispiel diene eine junge Firma, die eine innovative App für verschiedene mobile Plattformen entwickelt. Typischerweise wird ein Product Backlog gepflegt, welches Stories für kommende Features und für andere Tasks enthält. In wöchentlichen Sprints werden diese abgearbeitet. Dabie wird ein Kanban-Board mit den Spalten "Backlog" (Product Backlog), "To Do" (Sprint Backlog), "In Progress", "Blocked", "Testing" und "Done" geführt. Es gibt zusätzlich Swim Lanes für die einzelnen Plattformen. In einem wachsenden Unternehmen kann ein derartiger Ansatz zunehmend die Effizienz und Effektivität behindern. Es wichtiger eine längerfristige strategische Ausrichtung zu entwickeln, daraus mittelfristige Ziele anhand von Marktuntersuchungen und -vorhersagen zu definieren und diese in einzelne Projekte zu übersetzen. Diese Projekt konnten die Sprintzyklen nicht mehr einhalten und mussten zunehmend über viele Plattformen hinweg organisiert werden._
 
 ---
 
@@ -31,7 +31,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 #### Hero
 
 - Gehört einer Academy an
-- Ist Experte auf dem Gebiet seiner Academy
+- Ist Experte auf dem Gebiet seiner Academy, bspw. der iOS Entwicklung
 
 #### Quest
 
@@ -59,7 +59,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Dient dazu neue Quests zu pitchen und ggf. in die Pipeline aufzunehmen
 - Hat eine Quest-Planning-Komponente: Es werden Quests aus der Pipeline ausgewählt, die als nächstes beginnen sollen, sobald die benötigten Kapazitäten frei werden
 
-#### Quest Standup
+#### Quest Standup Meeting
 
 - Findet wöchentlich am Montag Morgen statt
 - Quest-Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
