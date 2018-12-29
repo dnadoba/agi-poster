@@ -160,17 +160,17 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 | ✅ | __Räumlich zusammen sitzen (sit together)__ |
 |   | Alle Academies sitzen in Tischgruppen nahe beieinander. Die Tischgruppen sind so angeordnet, dass Academy-Mitglieder zusammen sitzen. |
 | ✅ | __Komplettes Team (whole team)__ |
-|   | Mit Ausnahme von Außendienstmitarbeitern, befinden siche alle Angestellten im selben (Großraum-)Büro. |
+|   | Mit Ausnahme von Außendienstmitarbeitern, befinden sich alle Angestellten im selben (Großraum-)Büro. |
 | ✅ | __Informative Arbeitsumgebung (informative workspace)__ |
-|   | Kommunikation erfolgt öffentlich und in geschriebener Sprache in gemeinsamen Slack-Channels. Github Reposistories verfügen über Dokumentation in Readmes und Wikis. Desweiteren gibt es einen gemeinsamen Datenspeicher und weitere Github Reposistories. |
+|   | Kommunikation erfolgt öffentlich und in geschriebener Sprache in gemeinsamen Slack-Channels. Github Reposistories verfügen über Dokumentation in Readmes und Wikis. Des Weiteren gibt es einen gemeinsamen Datenspeicher und weitere Github Reposistories nur für Dokumentationszwecke oder digitale Kanban-Boards. |
 | ✅ | __Energiegeladene Arbeit (energized work)__ |
-|   | Es finden monatlich mehrere Teamevents statt, das Team wird mit kostenlosen Getränken und Snacks unterstützt. |
+|   | Mitarbeiter sind angehalten geregelte Arbeitszeiten einzuhalten. Während der Arbeitszeit werden Ablenkungen auf ein Minimum reduzuiert, indem hauptsächlich über Slack kommuniziert wird. Dadurch werden Kollegen nicht aus der Arbeit gerissen und können antworten, wenn sie sich nicht länger in einer Konzentrationphase befinden. Außerdem werden Mitarbeiter motiviert, indem monatlich mehrere Teamevents stattfinden und das Team mit kostenlosen Getränken und Snacks unterstützt wird. |
 | ❌ | __Programmieren in Paaren (pair programming)__ |
-|   | Es findet kein Parprogramming statt. Allenfalls gibt es vereinzelt Session, in denen zu zweit, an einem Computer, ein Problem gelöst wird. Code Reviews werden nach Erledigung eines Arbeitspakets durchgeführt. |
+|   | Es findet kein Parprogramming statt. Allenfalls gibt es vereinzelt Sessions, in denen zu zweit, an einem Computer, ein Problem gelöst wird. Code Reviews werden nach Erledigung eines Arbeitspakets durchgeführt. |
 | ✅ | __Geschichten (stories)__ |
 |   | User Stories sind Grundlage für alle Quests, die Einfluss auf den Endnutzer haben. |
 | ✅ | __Wochenzyklus (weekly cycle)__ |
-|   | Innerhalb der Academies, sowie in den Quest Parties wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup, bei dem beide Gruppen Bericht erstatten müssen, enforciert. |
+|   | Innerhalb der Academies, sowie in den Quests wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup, bei dem beide Gruppen Bericht erstatten müssen, enforciert. |
 | ❌ | __Quartalszyklus (quarterly cycle)__ |
 |   | Quartalszyklen haben keinen direkten Einfluss auf das Projektmanagement und das agile Vorgehen. Allerdings finden monatlich Quest-Pipeline Meetings statt. Dort werden zukünftige Quests vorgestellt und entschiedene Quests auf frei werdende Kapazitäten geplant. |
 | ❌ | __Freiraum (slack)__ |
