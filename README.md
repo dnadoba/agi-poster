@@ -17,9 +17,9 @@ Das vorgestellte agile Software-Entwicklungs-Framework wurde durch das agile Mod
 
 ## Komponenten und Aufbau
 
-Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. Wöchentlich (Montag morgens) findet ein sogenanntes Quest Standup Meeting statt, bei dem die Quest-Leader den Fortschritt, die aktuellen Probleme und mögliche Verzögerungen ihrer Quests vortragen. Außerdem tragen die Acedmies den Fortschritt ihrer Bemühungen bezüglich _Groom, Evolve, Support_ vor. Im Quest Standup findet zusätzlich eine Abwandlung einer Retrospektive statt, indem Probleme, die auf Questebene stattgefunden haben, beleuchtet werden.
+Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. Wöchentlich (Montag morgens) findet ein sogenanntes Quest Standup Meeting statt, bei dem die Quest Guides den Fortschritt, die aktuellen Probleme und mögliche Verzögerungen ihrer Quests vorstellen. Ggf. werden Quests als beendet erklärt und neue Quests initiiert. Außerdem tragen die Academies den Fortschritt ihrer Bemühungen bezüglich _Groom, Evolve, Support_ vor. Im Quest Standup findet zusätzlich eine Abwandlung einer Retrospektive statt, indem Prozess-Probleme, die auf Questebene stattgefunden haben, beleuchtet werden. 
 
-Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests gepitcht werden. Außerdem werden genehmigte Quest für den Start vorbereitet, d.h. u.A. mit Quest-Party Membern bestückt.
+Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests gepitcht werden und in dem das Quest Product Backlog bereinigt wird. Außerdem werden genehmigte Quest für den Start vorbereitet, u.A. indem ein Startdatum festgelegt wird, nachdem frei werdende Kapazitäten geschätzt wurden.
 
 #### Academy
 
@@ -41,7 +41,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 - Ein Pojekt mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
 - Ist spezifisch, planbar und messbar
-- In einem montlichen Quest-Pipeline-Meeting werden freie Kapazitäten mit Quests bestückt
+- In einem montlichen Quest Pipeline Meeting werden freie Kapazitäten mit Quests bestückt
 
 #### Doomsday Quest
 
@@ -49,7 +49,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Können jederzeit initiiert werden
 - Blockieren alle anderen Quests von denen Heroes abgezogen werden
 
-#### Quest-Guide
+#### Quest Guide
 
 - Quest guides sind Heroes, die für die Dauer des Quests als Guide bestimmt wurden
 - Behält den Überblick über den Quest-Fortschritt
@@ -72,7 +72,7 @@ Monatlich Findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 #### Quest Standup Meeting
 
 - Findet wöchentlich am Montag Morgen statt
-- Quest-Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
+- Quest Guides stellen den Status und Fortschritt, sowie ggf. Verzögerungen der aktuell laufenden Quests vor
 - Academies berichten kurz über die Anstrengungen hinsichtlich Groom, Evolve und Support
 - Bugtickets werden an die Acadmies verteilt (Bugtickets werden zentral gesammelt und erst beim nächsten Quest Standup aufgegriffen)
 - Vorkommnisse der vergangenen Woche werden reflektiert
@@ -92,9 +92,9 @@ Es gibt starke Parallen zu den durch Scrum definierten Rollen, der Definition wi
 | ⚠️ | __Scrum Team__ |
 |   | Es gibt zwei Arten von scrum-ähnlichen Teams. Zum einen gibt es Academies, die fest für einen Aufgabenbereich zuständig sind. Des Weiteren sind Quest-Parties Scrum Teams sehr ähnlich, bestehen jedoch nur für die Dauer der Quest. Die Vorgehensweise innerhalb einer Quest ähnelt jedoch dem Scrum Prozess. Die Quest Party wird für die Dauer des Quests zu einem Scrum Team und strukturiert den Arbeitsfluss anhand der 1-wöchigen Sprints. |
 | ❌ | __Product Owner__ |
-|   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs und das gesamte Team diese Rolle. Da die CEOs an Quest-Standups und Quest-Pipeline-Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Sie beeinflussen jedoch nicht alleine das Product-Backlog, alle Heros nehmen am Quest-Pipeline-Meeting teil. Innerhalb von Quests werden diese Interessen durch die Quest-Guides vertreten. Daher gibt es keine Product Owner im klassischen Sinne von Scrum. |
+|   | Einen Product Owner per reiner Scrum Definition gibt es nicht. In kleinen Firmen, die ein Produkt für sich selber Entwickeln übernehmen die CEOs und das gesamte Team diese Rolle. Da die CEOs an Quest-Standups und Quest Pipeline Meetings teilnehmen und die strategischen Ziele vorgeben, sind sie Entscheider für die Weiterentwicklung und Ausprägung des Produkts. Sie beeinflussen jedoch nicht alleine das Product-Backlog, alle Heros nehmen am Quest Pipeline Meeting teil. Innerhalb von Quests werden diese Interessen durch die Quest Guides vertreten. Daher gibt es keine Product Owner im klassischen Sinne von Scrum. |
 | ⚠️ | __Scrum Master__ |
-|   | Lead Entwickler in Acadmies und Quest-Guides nehmen Aufgaben in Bezug auf Prozess-Coaching und Überprüfung der Prozesseinhaltung wahr. Außerdem vermitteln Sie zwischen den Teams und den Product Ownern, bspw. betreffend interner Entscheidungen und deren Einfluss auf das Product Backlog. |
+|   | Lead Entwickler in Acadmies und Quest Guides nehmen Aufgaben in Bezug auf Prozess-Coaching und Überprüfung der Prozesseinhaltung wahr. Außerdem vermitteln Sie zwischen den Teams und den Product Ownern, bspw. betreffend interner Entscheidungen und deren Einfluss auf das Product Backlog. |
 | ⚠️ | __Team Member__ |
 |   | Sowohl in die Team-Mitglieder von Academies als auch von Quests sind Heroes. Sie erfüllen dort Aufgaben, ähnliche  derer, die durch Scrum definiert sind. Dies beinhaltet die Priorisierung von Backlog Items während verschiedener Planning Meetings und dem Bearbeiten von zugehörigen Tickets. |
 
@@ -132,7 +132,7 @@ Innerhalb der Academies werden typische Scrum Ereignisse verwendet, um Arbeitspa
 
 ###### Kanban Board auf Unternehmens-Ebene
 
-Auf Unternehmens-Ebene wird ein digitales Kanban-Board geführt. Die Einheit für Tickets sind dabei nicht Arbeitspakete oder Tasks, sondern Quests. Das "Quest-Backlog" Product-Backlog ist dabei nach Priorität geordnet. Weitere Spalten des Kanban-Boards sind "Running-Quests" (In Progress) und "Accomplished Quests" (Done). Zwei zusätzliche Spalten dienen als Vortstufe für das Product Backlog und sind relevant für das Quest-Pipeline-Meeting. Diese sind "Quests Ready To Be Pitched" und "Quests Not Ready To Be Pitched". "Quests Ready To Be Pitched" werden während des Quest-Pipeline-Meetings vorgestellt und ggf. in das Product-Backlog aufgenommen. Andernfalls müssen sie überarbeitet werden und wandern zurück in "Quests Not Ready Not To Be Pitched" oder sie werden verworfen. Ziel des Kanban-Boards ist hauptsächlich die Begrenzung des WIPs. Aufgrund von begrenzten Ressourcen können nur eine bestimmte Anzahl an Quests gleichzeitig laufen. Es sollen keine Hero-Engpässe entstehen, wodurch Heroes ohne Aufgabe sind und für kein neues Quest alle benötigten Heroes zur Verfügung stehen. Kommen dennoch Stehzeiten vor, können diese für Academy-Arbeit verwendet werden. Außerdem bauen oftmals Quests auf anderen Quests auf. Wird ein Quest beendet, wird dies im Quest Standup Meeting verkündet und ein neues Quest wird gestartet.  
+Auf Unternehmens-Ebene wird ein digitales Kanban-Board geführt. Die Einheit für Tickets sind dabei nicht Arbeitspakete oder Tasks, sondern Quests. Das "Quest-Backlog" Product-Backlog ist dabei nach Priorität geordnet. Weitere Spalten des Kanban-Boards sind "Running-Quests" (In Progress) und "Accomplished Quests" (Done). Zwei zusätzliche Spalten dienen als Vortstufe für das Product Backlog und sind relevant für das Quest Pipeline Meeting. Diese sind "Quests Ready To Be Pitched" und "Quests Not Ready To Be Pitched". "Quests Ready To Be Pitched" werden während des Quest Pipeline Meetings vorgestellt und ggf. in das Product-Backlog aufgenommen. Andernfalls müssen sie überarbeitet werden und wandern zurück in "Quests Not Ready Not To Be Pitched" oder sie werden verworfen. Ziel des Kanban-Boards ist hauptsächlich die Begrenzung des WIPs. Aufgrund von begrenzten Ressourcen können nur eine bestimmte Anzahl an Quests gleichzeitig laufen. Es sollen keine Hero-Engpässe entstehen, wodurch Heroes ohne Aufgabe sind und für kein neues Quest alle benötigten Heroes zur Verfügung stehen. Kommen dennoch Stehzeiten vor, können diese für Academy-Arbeit verwendet werden. Außerdem bauen oftmals Quests auf anderen Quests auf. Wird ein Quest beendet, wird dies im Quest Standup Meeting verkündet und ein neues Quest wird gestartet.  
 
 ###### Kanban Board auf Academy-Ebene
 
