@@ -84,6 +84,8 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 ## Vergleich mit agilen Modellen
 
+Das Agile Development Fusion Model vereint Komponenenten verschiedener agiler Methoden direkt oder in angepasster Form. Die Hauptgrundlagen stellen dabei Scrum, Kanban und Extreme Programming dar.
+
 #### Scrum
 
 ###### Rollen
