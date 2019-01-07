@@ -17,7 +17,7 @@ Das vorgestellte agile Software-Entwicklungs-Framework wurde durch das agile Mod
 
 ## Komponenten und Aufbau
 
-Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. Wöchentlich (Montag morgens) findet ein sogenanntes Quest Standup Meeting statt, bei dem die Quest Guides den Fortschritt, die aktuellen Probleme und mögliche Verzögerungen ihrer Quests vorstellen. Ggf. werden Quests als beendet erklärt und neue Quests initiiert. Außerdem tragen die Academies den Fortschritt ihrer Bemühungen bezüglich _Groom, Evolve, Support_ vor. Im Quest Standup findet zusätzlich eine Abwandlung einer Retrospektive statt, indem Prozess-Probleme, die auf Questebene stattgefunden haben, beleuchtet werden. 
+Der ehemalige einwöchige Sprint-Zyklus wird in veränderter Form beibehalten. Wöchentlich (Montag morgens) findet ein sogenanntes Quest Standup Meeting statt, bei dem die Quest Guides den Fortschritt, die aktuellen Probleme und mögliche Verzögerungen ihrer Quests vorstellen. Ggf. werden Quests als beendet erklärt und neue Quests initiiert. Außerdem tragen die Academies den Fortschritt ihrer Bemühungen bezüglich _Evolve, Support, Progress, Maintain_ vor. Im Quest Standup findet zusätzlich eine Abwandlung einer Retrospektive statt, indem Prozess-Probleme, die auf Questebene stattgefunden haben, beleuchtet werden. 
 
 Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests gepitcht werden und in dem das Quest Product Backlog bereinigt wird. Außerdem werden genehmigte Quest für den Start vorbereitet, u.A. indem ein Startdatum festgelegt wird, nachdem frei werdende Kapazitäten geschätzt wurden.
 
@@ -25,13 +25,14 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 - Gilt als eigenständiger Bereich und ist selbstorganisiert
 - Ist zuständig für eine Plattform oder eine Abteilung (bspw. iOS, Backend oder Business Development)
-- Groom, Evolve und Support:
-	- Betreibt Pflege und Weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens
-	- Unterstützt andere Academies bei Academy bei Plattformübergreifenden Pflege- und Weiterentwicklungsarbeiten
-	- Dabei müssen große Arbeitspakete als Quest deklariert werden und gelten nicht also Academy-Tasks
+- Evolve, Support, Progress, Maintain:
+	- __Evolve:__ Verbessert den Status Quo und vertieft Fachwissen der Academy Mitglieder für die Academy Domäne
+	- __Support:__ Unterstützt Quest Parties, falls zusätzliches Know-How oder Domänen-Wissen benötigt wird
+	- __Progress:__ Pflegt den Output von Quests in die Code Base ein, schlägt neue Quests vor
+	- __Maintain:__ Betreibt Pflege und Weiterentwicklung des Verantwortungsbereichs in Übereinstimmung mit den strategischen Zielen des Unternehmens (dabei müssen große Arbeitspakete als Quests deklariert werden und gelten nicht also Academy-Tasks)
 - Verwaltet ein eigenes Product Backlog (Academy Product Backlog) (enthält nur Tasks und Arbeitspakete mit Bezug auf Plattformpflege und -weiterentwicklung)
 - Betreibt ein wöchentliches Planning Meeting, um Heroes Aufgaben für den aktuellen Zyklus zuzuordnen
-- Betreibt ein wöchtenliches MEeting für Mid-Term-Planning, ein Review und eine Retrospektive
+- Betreibt ein wöchtenliches Meeting für Mid-Term-Planning, ein Review und eine Retrospektive
 - Tasks werden auf einem internen Kanban Board festgehalten
 
 #### Hero
