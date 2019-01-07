@@ -56,10 +56,11 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 #### Quest Guide
 
 - Quest Guides sind Heroes, die für die Dauer des Quests als Leiter bestimmt werden
-- Behält den Überblick über den Fortschritt des Quests
+- Behält den Überblick über den Fortschritt des Quests und über KPIs, die den Quest_Erfolg messen
 - Stellt den Fortschritt im wöchentlichen Quest Standup Meeting vor
+- Betreibt eine Risiko-Analyse und kommuniziert Risiken
 - Koordiniert die wöchentliche quest-internen Meetings
-- Sorgt dafür, dass die Quest Party ungestört arbeiten kann
+- Sorgt dafür, dass die Quest Party ungestört arbeiten kann (a.A. durch Maintenance von (internen) Tools)
 
 #### Quest Party
 
