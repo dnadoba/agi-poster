@@ -42,8 +42,9 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 
 #### Quest
 
-- Ein Pojekt mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
-- Ist spezifisch, planbar und messbar
+- Ein Pojekt (großes Arbeitspaket) mit bestimmter Laufzeit und mit Beitrag zu den strategischen Zielen des Unternehmens
+- Quests werden aus Taktiken abgeleitet, welche ihrerseits das Ziel haben, die strategischen Ziele des Unternehmens erfüllen
+- Ist relevant, messbar (Fortschritt und Erfolg), zeit-gebunden und erreichbar
 - In einem montlichen Quest Pipeline Meeting werden freie Kapazitäten mit Quests bestückt
 - Betreibt ein wöchentliches Meeting für die Planung und ein Review, sowie die Besprechung von Interna (technische und organisatorische Entscheidungen)
 
@@ -52,6 +53,16 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Spezielles Quest, welches unverzüglich begonnen und durchgeführt werden muss, da es sonst das Fortbestehen des Produkts gefährdet
 - Kann jederzeit initiiert werden
 - Blockiert automatisch alle anderen Quests von denen Heroes abgezogen werden
+
+#### Reactive Quests
+
+- Spezielles Quest, welches nicht gepitcht werden muss und automatisch in das Product Backlog aufgenommen wird (mit hoher Priorität)
+- Reagiert auf geänderte Anforderungen, die während einer bestehenden oder seit dem Abschluss einer Quest an einem relevanten Teilprodukt aufgekommen sind.
+
+#### Bug/Issue Quests
+
+- Spezielles Quest, welches nicht gepitcht werden muss und automatisch in das Product Backlog aufgenommen wird (mit hoher Priorität)
+- Wird für größere Probleme initiiert, die nicht als Academy Task eingestuft werden können
 
 #### Quest Guide
 
@@ -68,10 +79,15 @@ Monatlich findet außerdem ein Quest Pipeline Meeting statt, bei dem neue Quests
 - Zusammengesetzt aus Heros verschiedener Academies 
 - Bearbeitet das Quest eigenverantwortlich und selbstorganisiert
 
+#### Quest Backlog Meeting
+
+- Findet monatlich direkt vor dem Quest Pipeline Meeting statt
+- Durchführung des Product Backlog Groomings
+
 #### Quest Pipeline Meeting
 
-- Findet monatlich statt
-- Dient dazu neue Quests zu pitchen und ggf. in die Pipeline aufzunehmen
+- Findet monatlich direkt im Anschluss an das Quest Backlog Meeting statt
+- Dient dazu neue Quests vorzustellen und ggf. in das Product Backlog aufzunehmen
 - Es werden Quests aus der Pipeline ausgewählt, die als nächstes beginnen sollen, sobald die benötigten Kapazitäten frei werden
 
 #### Quest Standup Meeting
