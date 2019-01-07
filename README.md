@@ -174,8 +174,8 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 |   | User Stories sind Grundlage für alle Quests, die Einfluss auf den Endnutzer haben. |
 | ✅ | __Wochenzyklus (weekly cycle)__ |
 |   | Innerhalb der Academies, sowie in den Quests wird im wochenzyklus gearbeitet und geplant. Dies wird durch wöchentliche gruppen-interne Meetings, sowie durch das Quest Standup Meeting enforciert. |
-| ❌ | __Quartalszyklus (quarterly cycle)__ |
-|   | Quartalszyklen haben keinen direkten Einfluss auf das Projektmanagement und das agile Vorgehen. Allerdings finden monatlich Quest Pipeline Meetings statt. Dort werden zukünftige Quests vorgestellt und entschiedene Quests auf frei werdende Kapazitäten geplant. |
+| ✅ | __Quartalszyklus (quarterly cycle)__ |
+|   | Ein Mal pro Quartal wird ein Meeting einberufen, in dem die Strategischen Ziele des Unternehmens gepflegt, überarbeitet und erweitert werden. Aus den strategischen Zielen leiten sich Taktiken ab, die wiederrum durch daraus entwickelten Quests realisert werden. |
 | ❌ | __Freiraum (slack)__ |
 |   | Aktuell wird nicht mit Pufferzeiten geplant, wobei bei der Planung der Länge von Quests jedoch versucht wird Probleme zu antizipieren. Geht es dann schneller voran, da Probleme nicht eintreten, so können Academy Tasks durchgeführt werden (auch aus dem Academy Product BAcklog). |
 | ⚠️ | __Zehn-Minuten-Build (ten-minute-build)__ |
