@@ -206,6 +206,21 @@ Das vorgestellte Modell stimmt im Wesentlichen mit den Prinzipien von Extreme Pr
 
 ---
 
+## Vergleich mit dem agilen Manifest
+
+###### Grundlegende Prinzipien
+
+| Status | Prinzip |
+|:-:|---|
+| ✅ | __Individuen und Interaktionen mehr als Prozesse und Werkzeuge__ |
+|   | Die internen Prozess und das Agile Development Fusion Model sind stetig im Wandel. Im Fokus stehen die Individuen und deren (Zusammen-)Arbeit. Im Quest Standup Meeting, sowie in den Academy Weeklies gibt es eine Retrospektive, in der bei Bedarf Probleme mit dem Prozess besprochen werden. Änderungen werden dann ggf. durchgeführt, damit Mitarbeiter effizient arbeiten können. Der Prozess dient dem Arbeitsablauf, nicht anders herum. |
+| ✅ | __Funktionierende Software mehr als umfassende Dokumentation__ |
+|   | Ziel der Entwickler Academies ist es, selbstdokumentierten Code zu schreiben. Durch die tägliche Zusammenarbeit und offene Kommunikation erfolgt außerdem ein konstanter Wissensaustausch. Dokumentiert werden nur Abläufe, die weniger frequentiert eingesetzt werden. |
+| ✅ | __Zusammenarbeit mit dem Kunden mehr als Vertragsverhandlung__ |
+|   | Das Agile Development Fusion Model bietet sich vor allem für mittelgroße Firmen und Projektteams an, die länger an einem eigenen Produkt arbeiten, welches in der Zeit gepflegt wird und an die sich ändernden Marktanforderungen angepasst wird. Daher gibt es externe Kunden. Dies sind u.A. die Endnutzer, dort gibt es keine klassischen VErtragsverhandlungen. Durch analytische Auswertungen des Produkts wird das Verhalten der Endnutzer effizient überwacht. Die aktuellen Ziele werden stetig überwacht und in Einklang mit den daraus abgeleiteten Kundenwünschen gebracht. |
+| ✅ | __Reagieren auf Veränderung mehr als das Befolgen eines Plans__ |
+|   | Der Plan manifestiert sich in den strategischen Zielen, Taktiken und nach Priorität geplantent Quests. Wichtiger ist jedoch die Agilität und die Anpassung an sich ändernde Marktanforderungen. Daher werden pro Quartal die strategischen Ziele neu bewertet und überarbeitet. Außerdem findet monatlich ein Quest Backlog und Pipeline statt, an dem das Product Backlöog aufgeräumt wird, Prioritäten überarbeitet werden und neue Quests eingefügt werden. Schlussendlich gibt es mit Sonder-Quests, wie den Doomsday Quests, die Möglichkeit sehr schnell zu reagieren und den Plan zu ändern. |
+
 __Legende__:
 
 ✅ Stimmt überein, ist erfüllt
